@@ -1,6 +1,6 @@
 name = "bootstrap-css"
 description = "BootstrapCSS Library for Slim"
-version = "1.0"
+version = "1.0.0"
 
 @ github
 	repo = "ZeralldMC/slim-bootstrapcss"
