@@ -1,0 +1,11 @@
+export component BSFloatingLabel(props) {
+	const id = props.id;
+	const placeholder = props.placeholder;
+	const label = props.label;
+
+	return
+		<div class="form-floating mb-3">
+  			<input type="email" class="form-control" id="${id}" placeholder="${placeholder}">
+  			<label for="${id}">${label}</label>
+     	</div>
+}
